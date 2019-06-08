@@ -242,7 +242,6 @@ header.masthead .intro-text .intro-lead-in {
   font-size: 50px;
   line-height: 70px;
   margin-bottom: 25px;
-  text-align: center !important;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -267,9 +266,6 @@ header a , header a:hover{
   white-space: nowrap;
 }
 
-header.masthead a{
-  display: inline-block;
-}
 /* Intro Text and button under the width 992px */
 @media (max-width: 992px) {
   header.masthead .intro-text {
@@ -281,7 +277,6 @@ header.masthead a{
     font-size: 40px;
     line-height: 60px;
     margin-bottom: 10px;
-    text-align: center !important;
   }
 
   header.masthead .intro-text .intro-heading {
@@ -290,6 +285,7 @@ header.masthead a{
     line-height: 30px;
     margin-bottom: 40px;
   }
+
 
   #button-space {
     letter-spacing: 1px;
