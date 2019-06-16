@@ -300,70 +300,104 @@
  }
 
  #services {
-   background-color: #F2F9FF;
+   background-color: #FFF;
+   padding-top: 50px !important;
+   padding-bottom: 50px !important;
  }
 
- #services p {
+ #services .work-type {
+   padding: 50px;
+ }
+
+ #services .position-left {
+   padding-right: 40px;
    padding-top: 15px;
-   font-size: 15px;
  }
-
- .service-heading {
+ #services .position-right {
+   padding-left: 40px;
    padding-top: 15px;
-   margin: 15px 0;
-   text-transform: none;
  }
-
 
  @media (max-width: 992px) {
-   #services p {
-     padding-top: 15px;
-     font-size: 15px;
+
+   #services {
+     padding-top: 30px !important;
+     padding-bottom: 30px !important;
+   }
+
+   #services img {
+     padding: 50px;
+   }
+
+   #services .work-type {
+     padding: 0px;
+   }
+
+   #services .position-left {
+     padding-right: 0px;
+     padding-top: 0px;
+   }
+   #services .position-right {
+     padding-left: 0px;
+     padding-top: 0px;
    }
 
    #services h3 {
      font-size: 15px;
+     text-align: center;
+     padding-left: 20px;
+     padding-right: 20px;
    }
 
    #services h2 {
      font-size: 25px;
+     text-align: center;
+     padding-left: 20px;
+     padding-right: 20px;
    }
 
-   #services h4 {
-     font-size: 20px;
+   #services .first {
+     order:2;
    }
 
-   .service-heading {
-     padding-top: 15px;
-     margin: 15px 0;
-     text-transform: none;
+   #services .second {
+    order:1;
    }
  }
 
- .law {
+ #law {
    text-align: center;
-   color: black;
-   text-align: left;
-   padding-bottom: 10px !important;
+   background-color: #F2F9FF;
+   padding-top: 100px !important;
+   padding-bottom: 70px !important;
  }
 
- .law h2 {
-   font-size: 25px;
+ #law img {
+   padding: 70px;
+   padding-top: 0px !important;
+ }
+
+ #law h2 {
    text-align: center;
  }
 
  #partners {
    padding-bottom: 30px !important;
-   background-color: #F2F9FF;
+   background-color: #FFF;
  }
 
 
  @media (max-width: 992px){
-   .law h2 {
+
+   #law img {
+     padding: 50px;
+   }
+
+   #law h2 {
      font-size: 25px !important;
    }
 
-   .law h3 {
+   #law h3 {
      font-size: 15px !important;
    }
 
@@ -381,6 +415,10 @@
    }
  }
 
+#team {
+  background-color: #F2F9FF;
+}
+
  .team-member {
    margin-bottom: 50px;
    text-align: center;
@@ -389,7 +427,6 @@
  .team-member img {
    width: 225px;
    height: 225px;
-   border: 7px solid rgba(0, 0, 0, 0.1);
  }
 
 
@@ -407,7 +444,6 @@
    .team-member img {
      width: 200px;
      height: 200px;
-     border: 7px solid rgba(0, 0, 0, 0.1);
    }
 
    #team h2 {
